@@ -1,0 +1,184 @@
+body {
+  overflow-x: hidden;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: black;
+}
+
+.navbar .nav-link {
+  font-size: 15px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.navbar .nav-item.active {
+  border-bottom: darkgoldenrod 3px solid;
+  border-radius: 20%;
+}
+
+.fab {
+  margin-right: 15px;
+}
+
+/* Slider Section */
+
+.carousel-item {
+  height: 700px;
+}
+
+@media (min-width: 1200px) {
+  .carousel-item {
+    height: 700px;
+  }
+}
+
+/* Menu Section */
+
+#menu-section {
+  background: url(../img/burger_bg.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+
+#menu-section #menu-headings h3 {
+  padding-top: 100px;
+  font-size: 100px;
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 100px;
+  margin-bottom: 27px;
+  font-family: "Paytone One", sans-serif;
+}
+
+#menu-section #menu-headings h4 {
+  font-size: 140px;
+  font-family: "Pacifico", cursive;
+  color: #f2c64d;
+  position: relative;
+  margin-top: -70px;
+}
+
+#menu-section #menu-headings span {
+  margin-top: 100px;
+  color: #f2c64d;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 18px;
+  display: block;
+  font-family: "Pacifico", cursive;
+}
+
+.single_delicious .thumb {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.single_delicious .info {
+  padding-left: 10px;
+}
+
+.single_delicious span {
+  display: block;
+  font-weight: 700;
+  font-size: 24px;
+  color: #f0542c;
+  font-family: "Montserrat", sans-serif;
+}
+
+#menu-section button {
+  border-radius: 20px;
+}
+
+/* Deal Section */
+
+#deals-section .burger-president1 {
+  position: relative;
+  background: url(../img/burger-president1.png);
+  background-repeat: no-repeat;
+  min-height: 450px;
+  max-width: 100%;
+}
+
+#deals-section .burger-president2 {
+  position: relative;
+  background: url(../img/burger-president2.png);
+  background-repeat: no-repeat;
+  min-height: 450px;
+  max-width: 100%;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#deals-section .deal-inner {
+  padding-top: 225px;
+  padding-left: 100px;
+}
+
+#deals-section .deal-inner span {
+  font-weight: 600;
+  font-size: 25px;
+  color: #f0542c;
+}
+
+#deals-section .deal-inner p {
+  color: gray;
+}
+
+#deals-section .deal-inner a {
+  background-color: goldenrod;
+  color: white;
+}
+
+#deals-section .deal-inner a:hover {
+  background-color: transparent;
+  color: goldenrod;
+  border-color: goldenrod;
+}
+
+/* footer section */
+
+#footer {
+  padding-top: 150px;
+  background: url(../img/burger_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+
+#footer .inner {
+  font-family: "Raleway", sans-serif;
+}
+
+#footer h2 {
+  font-size: 50px;
+  font-family: "Pacifico", cursive;
+  color: #f2c64d;
+}
+
+#footer h3 {
+  font-weight: 700;
+}
+
+#footer p {
+  line-height: 2rem;
+}
+
+#footer span {
+  color: #f0542c;
+  font-size: larger;
+  font-weight: 700;
+}
